@@ -1,0 +1,51 @@
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45
+$ git clone https://github.com/patilyashsachin/WAD.git
+Cloning into 'WAD'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (13/13), done.
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45
+$ cd WAD
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git add *
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git commit -m "Updated file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git add *
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git commit -m "Updated file"
+[main 93605b6] Updated file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Assignment 2a/Commands.txt
+ create mode 100644 Assignment 2a/Theory.txt
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git config user.email "patilyash1914@gmail.com"
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git remote set-url origin https://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@github.com/patilyashsachin/WAD
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 346 bytes | 346.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/patilyashsachin/WAD
+   e723720..93605b6  main -> main
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Documents/Yash45/WAD (main)
+$
